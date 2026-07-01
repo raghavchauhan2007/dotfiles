@@ -1,0 +1,6 @@
+alias vim='nvim'
+alias ll='ls -lah'
+alias hibernate='systemctl hibernate'
+alias ts='tailscale'
+alias ..='cd ..'
+alias py='python'

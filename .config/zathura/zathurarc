@@ -1,0 +1,21 @@
+set selection-clipboard clipboard
+
+set font "JetBrains Mono normal 10"
+set default-bg "#111111"
+set default-fg "#dddddd"
+set statusbar-bg "#111111"
+set statusbar-fg "#aaaaaa"
+set inputbar-bg "#111111"
+set inputbar-fg "#ffffff"
+
+set recolor true
+set recolor-lightcolor "#111111"
+set recolor-darkcolor "#e0e0e0"
+set recolor-keephue true
+set adjust-open "width"
+set render-loading false
+set page-cache-size 2
+
+map r recolor
+map R reload
+map f toggle_fullscreen

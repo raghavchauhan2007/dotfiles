@@ -1,0 +1,7 @@
+require('monitors')
+require('autostart')
+require('appearance')
+require('misc')
+require('input')
+require('keybinds')
+require('windowrules')
