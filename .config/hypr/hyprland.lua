@@ -1,6 +1,7 @@
 require('monitors')
 require('autostart')
 require('appearance')
+require('env')
 require('misc')
 require('input')
 require('keybinds')
