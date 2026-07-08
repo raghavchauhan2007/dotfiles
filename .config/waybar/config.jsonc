@@ -3,33 +3,34 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
 
-  "modules-center": ["clock", "custom/weather"],
+  "modules-center": ["clock"],
 
   "modules-right": [
+    "bluetooth",
     "pulseaudio",
-    // "custom/uptime",
-    // "backlight",
     "network",
     "cpu",
     "temperature",
     "memory",
-    // "custom/docker",
     "tray"
-    // "custom/lock",
-    // "battery"
-    // "custom/power"
   ],
+
+  "bluetooth": {
+    "format": "",
+    "format-disabled": "",
+    "format-connected": "{device_alias}",
+    "format-connected-battery": "{device_battery_percentage}%  {device_alias}",
+    "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+    "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+    "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
+  },
 
   "hyprland/workspaces": {
     "format": "{name}"
-    // "format-icons": {
-    //   "active": "",
-    //   "default": ""
-    // }
   },
 
   "clock": {
-    // "timezone": "America/Fortaleza",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "format": "{:%H:%M}",
     "interval": 1
@@ -56,12 +57,11 @@
 
   "memory": {
     "interval": 1,
-    // "format": "  {used:0.1f}G/{total:0.1f}G"
     "format": "{percentage}%"
   },
 
   "pulseaudio": {
-    "format": "{icon} {volume}%",
+    "format": "{volume}%",
     "format-muted": "0%",
     "on-click": "pavucontrol"
   },
