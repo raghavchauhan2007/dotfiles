@@ -1,6 +1,7 @@
 theme = GitHub Dark Default
-#background = #0D1117
-# font-family = JetBrains Mono
-font-family = Iosevka Fixed
+# theme = TokyoNight Night
+background-opacity = 0.85
+background = #070B14
+font-family = JetBrains Mono NL
 font-family = Symbols Nerd Font
-font-size = 20
+font-size = 17
