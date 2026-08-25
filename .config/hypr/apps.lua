@@ -1,6 +1,6 @@
 return {
   terminal = "ghostty",
   fileManager = "dolphin",
-  browser = "brave-origin",
+  browser = "firefox",
   menu = "rofi -show drun",
 }
