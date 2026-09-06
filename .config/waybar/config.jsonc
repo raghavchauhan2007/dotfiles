@@ -74,9 +74,6 @@
     "format": "{capacity}%",
     "tooltip": true,
     "tooltip-format": "{timeTo}\nPower Draw: {power}W",
-    "events": {
-      "on-charging-80": "notify send -u critical '80% Charged'",
-      "on-discharging-30": "notify send -u critical '30% Charged'"
     }
   }
 }
