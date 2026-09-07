@@ -1,11 +1,14 @@
 {
   "layer": "top",
   "position": "top",
-  "modules-left": ["hyprland/workspaces"],
+  "modules-left": [
+    "hyprland/workspaces"
+  ],
 
   "modules-center": ["clock"],
 
   "modules-right": [
+    "mpris",
     "bluetooth",
     "pulseaudio",
     "network",
@@ -43,12 +46,12 @@
     "format-disconnected": "No Network",
     "interval": 1,
     "tooltip": true,
-    "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%)"
   },
 
   "cpu": {
     "interval": 1,
-    "format": "{usage:>2}%",
+    "format": "{usage:>2}%"
   },
 
   "temperature": {
@@ -73,7 +76,12 @@
     "interval": 60,
     "format": "{capacity}%",
     "tooltip": true,
-    "tooltip-format": "{timeTo}\nPower Draw: {power}W",
-    }
+    "tooltip-format": "{timeTo}\nPower Draw: {power}W"
+    },
+
+  "mpris": {
+    "format": "{title}",
+    "format-paused": "{title}",
+    "max-length": 40
   }
 }
