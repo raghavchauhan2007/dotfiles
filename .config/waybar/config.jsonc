@@ -76,7 +76,7 @@
     "interval": 60,
     "format": "{capacity}%",
     "tooltip": true,
-    "tooltip-format": "{timeTo}\nPower Draw: {power}W"
+    "tooltip-format": "{timeTo}\nPower Draw: {power}W\nCycles: {cycles}"
     },
 
   "mpris": {
