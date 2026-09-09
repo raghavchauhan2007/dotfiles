@@ -8,7 +8,6 @@
   "modules-center": ["clock"],
 
   "modules-right": [
-    "mpris",
     "bluetooth",
     "pulseaudio",
     "network",
